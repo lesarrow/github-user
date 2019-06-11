@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search for Github Users</title>
+        <meta name="description" content="Search github users and show the repo name and link associated">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>        
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <form class="form-user-search">
+            <label for="input-user">User:</label>
+            <input type="text" name="input-user" id="input-user" required>
+            <input type="submit">
+        </form>
+        <h1 class="user-search-results-header">Search Results</h1>
+        <ul class="user-search-results">            
+        </ul>
+    </body>
+</html>
